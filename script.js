@@ -15,6 +15,7 @@ for (let i = 0; i < elements.length; i++) {
     });
 }
 
+
 let horizontScroll = document.querySelector('.scrol');
 let leftBtn = document.getElementById('leftBtn')
 let rightBtn = document.getElementById('rightBtn')
