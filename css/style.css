@@ -906,6 +906,29 @@ h1, h2, h3, p, ul{
     margin-right: auto;
 }
 
+.list-btn {
+    gap: 18px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.scrol-btn {
+    height: 6px;
+    width: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #283036;
+} 
+
+.scrol-orange {
+    height: 8px;
+    width: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff7300; 
+}
+
 .section-constributer {
     background-color: #1E252B;
     padding-bottom: 240px;
@@ -1085,10 +1108,7 @@ h1, h2, h3, p, ul{
     display: flex;
 }
 
-
-
 .container .gallery {
-
     flex: none;
     grid-template-columns: auto auto auto;
 }
