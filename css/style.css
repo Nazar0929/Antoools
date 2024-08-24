@@ -24,6 +24,13 @@ h1, h2, h3, p, ul{
     padding-left: 10px;
     padding-right: 10px;
     width: 1244px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container.element-show {
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 .header-flexing {
@@ -419,6 +426,16 @@ h1, h2, h3, p, ul{
     display: flex;
 }
 
+.blender {
+    width: 100px;
+    height: 64px;
+}
+
+.powerpoint {
+    width: 64px;
+    height: 64px;
+}
+
 .zeplin {
     width: 56px;
     height: 44px;
@@ -573,6 +590,7 @@ h1, h2, h3, p, ul{
 }
 
 .button-load {
+    margin-bottom: 100px;
     color: #FF6E30;
     font-family: Poppins;
     font-size: 20px;
@@ -789,7 +807,10 @@ h1, h2, h3, p, ul{
     display: flex;
 }
 
-
+.yolk {
+    width: 490px;
+    height: 492px;
+}
 
 .text-decsription {
     width: 393px;
@@ -833,6 +854,10 @@ h1, h2, h3, p, ul{
         background-color: #454545;
     }
 
+}
+
+.less-distance {
+    margin-right: 36px;
 }
 
 .button-left {
@@ -1117,13 +1142,21 @@ h1, h2, h3, p, ul{
     margin-left: 30px;
 }
 
+.marginright {
+    margin-right: 30px;
+}
+
 .scrol::-webkit-scrollbar {
     display: none;
 }
 
 .woman-menedzment {
-    margin-left: 33px;
-    width: 379px;
+    margin-left: 56px;
+    width: 356px;
     height: 492px;
     flex-shrink: 0;
+}
+
+.hidden {
+    display: none;
 }
