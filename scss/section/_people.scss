@@ -1,0 +1,161 @@
+
+.section-people {
+    background-color:#1E252B;
+    padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: 399px 492px;
+    background-position: 295px 200px;
+    padding-bottom: 250px;
+}
+
+.list-text {
+    display: flex;
+}
+
+.yolk {
+    width: 490px;
+    height: 492px;
+}
+
+.text-decsription {
+    width: 393px;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 0.21px;
+    margin-left: 57px;
+    margin-top: 128px;
+}
+
+.button-right {
+    margin-right: 114px;
+    margin-top: 196px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+    transition: border-radius 0.9s ease;
+    animation: changinColor 3s infinite alternate;
+}
+
+.button-right:hover {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.55);
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes changinColor {
+    0% {
+        background-color:  #1E252B;; /* Синий */
+    }
+
+    100% {
+        background-color: #454545;
+    }
+
+}
+
+
+.less-distance {
+    margin-right: 36px;
+}
+
+.button-left {
+    margin-top: 196px;
+    margin-left: 108px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+    transition: border-radius 0.9s ease;
+    animation: changinsColor 3s infinite alternate;
+}
+
+.button-left:hover {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.55);
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes changinsColor {
+    0% {
+        background-color:  #1E252B;; /* Синий */
+    }
+
+    100% {
+        background-color: #454545;
+    }
+
+}
+
+
+.box-name {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 23px;
+    padding-right: 22px;
+    width: 267px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(40, 48, 54, 0.20);
+    backdrop-filter: blur(25px);
+    margin-top: -120px;
+    margin-left: 317px;
+}
+
+.head-name {
+    color: rgba(255, 253, 253, 0.78);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.39px;
+}
+
+.people-proffesion {
+    color: rgba(255, 253, 253, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-points {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-btn {
+    gap: 18px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.scrol-btn {
+    height: 6px;
+    width: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #283036;
+} 
+
+.scrol-orange {
+    height: 8px;
+    width: 44px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff7300; 
+}

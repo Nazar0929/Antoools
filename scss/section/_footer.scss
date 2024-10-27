@@ -1,0 +1,148 @@
+
+
+.footer {
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    background-color: #1E252B;
+    padding-top: 70px;
+    padding-bottom: 98px;
+}
+
+.texting-flexing {
+    display: flex;
+}
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-name {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 25px;
+
+}
+
+.text-footer {
+    width: 260px;
+    margin-top: 21px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+}
+
+.list-footering {
+    margin-left: 156px;
+}
+
+.last-list {
+    margin-left: 115px;
+}
+
+.text-contact {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.contact-number {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-caption {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lists {
+    margin-left: 115px;
+}
+
+.contacts{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+
+.contacting{
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.scrol {
+    overflow-x: scroll;
+    width: 1274px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+
+.container .gallery {
+    flex: none;
+    grid-template-columns: auto auto auto;
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.marginright {
+    margin-right: 30px;
+}
+
+.scrol::-webkit-scrollbar {
+    display: none;
+}
+
+.woman-menedzment {
+    margin-left: 56px;
+    width: 356px;
+    height: 492px;
+    flex-shrink: 0;
+}
+
+.hidden {
+    display: none;
+}

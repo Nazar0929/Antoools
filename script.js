@@ -1,16 +1,14 @@
-// Получаем все элементы с классом 'image-description'
 const elements = document.getElementsByClassName('image-description');
 
-// Перебираем все элементы и назначаем обработчик клика
 for (let i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', function() {
-        // Получаем текущий атрибут src
+
         const currentSrc = this.getAttribute('src');
         
-        // Определяем новый атрибут src
+
         const newSrc = currentSrc === 'img/iconslike.png' ? 'img/redlike.png' : 'img/iconslike.png';
         
-        // Устанавливаем новый атрибут src
+
         this.setAttribute('src', newSrc);
     });
 }
@@ -68,15 +66,14 @@ function onEntry(entry) {
   }
 
   document.getElementById('toggle-section-btn').addEventListener('click', function() {
-    // Получаем скрытую секцию
     const section = document.getElementById('hidden-section');
     
-    // Проверяем текущее состояние секции и переключаем видимость
+
     if (section.classList.contains('hidden')) {
         section.classList.remove('hidden');
-        this.textContent = 'Hide Program'; // Меняем текст кнопки
+        this.textContent = 'Hide Program';
     } else {
         section.classList.add('hidden');
-        this.textContent = 'Load More'; // Меняем текст кнопки обратно
+        this.textContent = 'Load More';
     }
 });

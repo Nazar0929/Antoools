@@ -1,0 +1,182 @@
+
+
+
+.section-hero {
+    padding-top: 104px;
+    background-color:#1E252B;
+    background-image: url(../img/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Контейнер для иконок */
+.icon-container {
+    position: relative;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+
+}
+
+/* Летающие иконки */
+.floating-icon {
+    position: relative;
+    width: 36px; /* Размер иконки */
+    animation: float 9s ease-in-out infinite; /* Анимация для плавного движения */
+}
+
+
+/* Ключевые кадры для иконок, которые поднимаются и опускаются */
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Подъем вверх на 10px */
+    }
+    100% {
+        transform: translateY(10);
+    }
+}
+
+
+@keyframes downUp {
+    0% {
+        transform: translateY(-7px);
+    }
+    50% {
+        transform: translateY(10px); /* Опускание вниз на 10px */
+    }
+    80% {
+        transform: translateY(-15px); 
+    }
+    100% {
+        transform: translateY(-7px); 
+    }
+}
+
+
+/* Анимации для иконок */
+.up-down {
+    animation: upDown 9s ease-in-out infinite;
+}
+
+.down-up {
+    animation: downUp 9s ease-in-out infinite;
+}
+
+
+.pulse-text {
+    width: 600px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 70px */
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.02);
+        opacity: 0.5;
+    }
+}
+
+.span {
+    color: #FF6E30;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.main-caption {
+    width: 487px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 30px;
+    border: 2px solid #1E252B;
+    text-shadow: 0 0 10px #1E252B;
+    animation: shadowChange 4s infinite alternate;
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes shadowChange {
+    0% {
+        text-shadow: 0 0 10px  #1E252B;
+    }
+    50% {
+        text-shadow: 0 0 10px #ffffff; 
+    }
+}
+
+.img-input {
+    margin-right: 13px;
+}
+
+.input {
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    display: flex;
+    margin-top: 60px;
+    width: 497.659px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: #283036;
+    animation: borderColorChange 4s linear infinite;
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes borderColorChange {
+    0% {
+        border-color:  #1E252B;
+    }
+    50% {
+        border-color: #FF6E30; 
+    }
+}
+
+.image-list {
+    display: flex;
+    align-items: center;
+    margin-top: 121px;
+    gap: 30px;
+}
+
+.text-input {
+    background: #283036;
+    border: none;
+}
+
+.button-input {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF6E30;
+    margin-left: 147px;
+    width: 130.435px;
+    height: 48px;
+    margin-right: 12px;
+    border: none;
+}
+

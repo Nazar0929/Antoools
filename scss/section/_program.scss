@@ -1,0 +1,207 @@
+
+.section-program {
+    background-color: #1E252B;
+}
+
+.box-flex {
+    display: flex;
+}
+
+.wrapper-flex {
+    display: flex;
+}
+
+.image-caption {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.text-discount {
+    color: rgba(255, 165, 55, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+
+.text-discount:hover{
+    color: #FFA537;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description-text {
+    width: 401px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 62.4px */
+}
+
+.caption-text-program {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 427px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166%;
+}
+
+.image-description {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.button-program {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    background: #FF6E30;
+}
+
+.wrap-button {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-sectioxn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    margin-left: 197px;
+}
+
+.wrapper-boxing {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 197px;
+    gap: 50px 24px;
+}
+
+.box-wrap {
+    padding-top: 29px;
+    padding-left: 22px;
+    padding-right: 21px;
+    padding-bottom: 35px;
+    width: 288px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #1E252B;
+    transition: margin-top 0.4s ease;
+}
+
+.box-wrap:hover {
+    padding-top: 29px;
+    padding-left: 22px;
+    padding-right: 21px;
+    padding-bottom: 35px;
+    width: 288px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(40, 48, 54, 0.60);
+    backdrop-filter: blur(25px);
+    background-image: url(../img/orangemask.png);
+    margin-top: -20px;
+
+}
+
+.procreate-image {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.text-descrip {
+    margin-top: 30px;
+    margin-bottom: 37px;
+    width: 245px;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+}
+
+
+.button-likee {
+    border-radius: 8px;
+    padding: 7px;
+    background: #1E252B;
+    border: none;
+    margin-left: 12px;
+}
+
+.button-likee:hover {
+    border-radius: 8px;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    border: none;
+    margin-left: 12px;
+}
+
+.button-descriptioning {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+    margin-left: 49px;
+}
+
+.button-like {
+    padding: 7px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+}
+.text-figma {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+}

@@ -1,0 +1,139 @@
+.header-flexing {
+    display: flex;
+}
+
+
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color:#1E252B;
+    padding-top: 26px;
+    padding-bottom: 58px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.list-caption {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.resizing-image {
+    animation: resize 5s infinite alternate;
+}
+
+/* Ключевые кадры для изменения размера */
+@keyframes resize {
+    0% {
+        transform: scale(1); /* Начальный размер (100%) */
+    }
+    50% {
+        transform: scale(1.2); /* Увеличение до 150% */
+    }
+    100% {
+        transform: scale(1); /* Возвращение к исходному размеру */
+    }
+}
+
+
+.text-logo {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.list-header {
+    gap: 40px;
+}
+
+.list-header {
+    display: flex;
+    margin-left: 257px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+
+.item-text {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.select-item  {
+    background-color: #1E252B;
+    border: none;
+}
+
+.li-img {
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.list-disk {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 41px;
+}
+
+.disk-text {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+
+.button {
+    color: #FDF5FF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF6E30;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    animation: changeColor 5s infinite alternate;
+}
+.button:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.55);
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes changeColor {
+    0% {
+        background-color:  #1E252B;; /* Синий */
+    }
+    50% {
+        background-color: #454545;
+    }
+    100% {
+        background-color: #FF6E30; /* Зеленый */
+    }
+
+}
